@@ -1,0 +1,7 @@
+@use '../abstracts/variables' as vars;
+
+a,
+a:focus,
+a:hover {
+  color: vars.$secondary-color;
+}

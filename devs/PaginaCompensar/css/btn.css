@@ -1,0 +1,177 @@
+.group-input {
+    width: 100%;
+    display: flex;
+    padding: 5px;
+}
+
+.group-input input::placeholder{
+    font-size: 14px;
+    justify-content: center;
+    color: #b1b1b1;
+}
+
+.input-txt {
+    width: 100%;
+    padding-inline: 10px;
+    border-radius: 50px;
+    margin-inline: 10px;
+    border: 1px solid #ccc;
+}
+
+.input-numeric {
+    width: 100%;
+    padding-inline: 10px;
+    border-radius: 50px;
+    margin-inline: 10px;
+    border: 1px solid #ccc;
+}
+
+label{
+    font-size: 11px;
+    margin: 10px 0 -19px !important;
+    padding-left: 25px;
+}
+.input-opt{
+    width: 100%;
+    padding: 7px;
+    border-radius: 50px;
+    margin-inline: 10px;
+    border: 1px solid #ccc;
+    font-size: 12px;
+}
+
+.input-label{
+    width: 100%;
+    padding-right: 20px;
+}
+
+.check{
+    margin-inline: 15px;
+}
+.check label{
+    padding: 5px;
+}
+
+.check a{
+    text-decoration: underline !important;
+}
+
+.btn-frm .button {
+    border-radius: 10px !important;
+    min-width: 130px !important;
+    padding: 10px 32px !important;
+    background-color: rgb(234 88 12/1) !important;
+}
+
+.btn{
+    cursor: pointer;
+    min-width: 274px;
+    min-width: 218px;
+    padding: 18px 32px;
+    border: 1px solid #ff6600;
+    border-radius: 35px;
+    background-color: #ffffff;
+    background-size: cover;
+    font-family: Roboto;
+    font-size: 18px;
+    line-height: 26px;
+    color: #00233b;
+    text-decoration: none solid rgb(0, 35, 59);
+    letter-spacing: 1px;
+    text-align: center;
+    display: inline-block;
+}
+
+.btn:hover {
+	background: rgb(140, 56, 0);
+	color: #fff;
+	border-color: rgb(140, 56, 0);
+}
+
+.button{
+    min-width: 300px;
+    padding: 18px 32px;
+    background-color: #ff6600;
+    background-size: cover;
+    font-family: Roboto;
+    font-size: 18px;
+    color: #ffffff;
+    text-decoration: none;
+    letter-spacing: 1px;
+    text-align: center;
+    box-shadow: 0px 3px 9px rgba(0, 0, 0, 0.2);
+    display: inline-block;
+    border-radius: 35px;
+    letter-spacing: 1px;
+}
+
+button:hover{
+	background: rgb(140, 56, 0);
+	color: #fff;
+	border-color: rgb(140, 56, 0);
+}
+a:hover {
+    color: #0056b3;
+    text-decoration: underline;
+    text-decoration: none;
+}
+
+.button-download {
+    width: 338px;
+    height: 48px;
+    background: #446d89;
+    color: #ffffff;
+    font-size: 18px;
+    line-height: 32px;
+    text-decoration: none;
+    padding: 8px 12px 12px 75px;
+    max-width: 100%;
+    position: relative;
+    white-space: nowrap;
+    transition: all 0.3s ease-in;
+    display: block;
+    
+}
+
+.button-download::before {
+    content: '';
+    position: absolute;
+    background: #2c90e8 url(../Galery/down-arrow-svgrepo-com.svg) no-repeat center;
+    width: 56px;
+    height: 48px;
+    display: inline-block;
+    vertical-align: middle;
+    margin-right: 16px;
+    top: 0;
+    left: 0;
+    background-size: 30px;
+}
+
+.button-download span{
+    background: #2c90e8;
+}
+
+.button-download img {
+    width: 100px;
+}
+
+.search{
+    background: #ff6600;
+    border-radius: 100%;
+    width: 50px;
+    height: 50px;
+    padding: 5px;
+    transform: translate(0%, -25%);
+}
+
+.search_icon{
+    width: 40px;
+    height: 40px;
+}
+
+.menu-down .search img {
+    filter: invert(100%);
+    padding: 12px;
+}
+
+

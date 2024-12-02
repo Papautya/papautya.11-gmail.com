@@ -1,0 +1,49 @@
+.tarjetas{
+    padding: 100px 0 0 0;
+    margin-inline: 20px;
+}
+
+.tarjetas-container{
+    display: flex;
+    justify-content:space-between;
+}
+
+.tar-block{
+    width: calc(33.3333% - 20px);
+    background-color: #f8f7f5;
+    border-radius: 16px;
+    padding: 46px;
+    text-align: center;
+}
+
+.tar-block a {
+    text-decoration: underline;
+    color: #ff6600;
+}
+
+.tar-block .description{
+    font-size: 20px;
+    min-height: 60px;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    display: flex;
+    align-items: center;
+}
+
+.tar-block .info{
+    font-size: 12px;
+}
+
+.tar-block a:hover{
+    font-size: 20px;
+}
+
+.one{
+    width: 100% !important;
+}
+
+.one h3{
+    text-align: center !important;
+    padding: 37px 15px 0px 15px !important;
+    margin: 0 0 32px 0 !important;
+}

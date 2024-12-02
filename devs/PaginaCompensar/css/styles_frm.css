@@ -1,0 +1,12 @@
+.frm-nuevo{
+    border-top: 1px solid #ff6600;
+    border-bottom: 1px solid #ff6600;
+    max-width: 1400px;
+    margin: 55px auto 5px;
+    padding: 40px 0 5px;
+    width: 86%;
+    display: table;
+}
+.frm-nuevo h3 {
+    text-align: center;
+}
